@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+   
+    <script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link data-require="bootstrap@*" data-semver="4.0.5" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
+    <script data-require="bootstrap@*" data-semver="4.0.5" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    
+    <script type="text/javascript" charset="utf-8">
+      $('document').ready(function() {   
+        routineList();
+      });
+       
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1><kbd>Routine Creation App!</kbd></h1>
+        <div class="row">
+          <div class="col-lg-6">
+              <div class="input-group">
+                <input id="routine" type="text" class="form-control" placeholder="Type Routine here">
+                <span class="input-group-btn">
+                  <button class="btn btn-primary addRoutine" type="button">Add Routine</button>
+                </span>
+              </div>
+          </div>
+        </div>
+          <h2><u>Routines</u></h2>
+      <ul class="routines">
+        
+      </ul>
+    </div>
+    
+  </body>
+
+</html>
